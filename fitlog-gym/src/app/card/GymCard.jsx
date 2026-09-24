@@ -34,7 +34,7 @@ const GymCard = ({ cardGet }) => {
                 <div className="card-actions ">
                     <div className=" "> 🕜{cardGet.duration} min</div>
                     <div className="">  ❤️‍🔥{cardGet.caloriesBurned} kcal</div>
-                    {/* <div className=""> ⭐{cardGet.rating}</div> */}
+                    <div className=""> ⭐{cardGet.rating}</div>
                 </div>
             </div>
         </div>
