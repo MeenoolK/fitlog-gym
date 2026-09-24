@@ -16,9 +16,9 @@ const GymCard = ({ cardGet }) => {
             </figure>
             <div className="card-body">
 
-                <div className="flex gap-3 flex-wrap">
+                <div className="flex gap-3 flex-wrap ">
                     {cardGet.muscleGroups?.map((bodyPart, partIndex) => (
-                        <div key={partIndex} className="badge badge-secondary">
+                        <div key={partIndex} className=" bg-[#C2F800] text-black badge font-bold ">
                             {bodyPart}
                         </div>
                     ))}
@@ -28,7 +28,7 @@ const GymCard = ({ cardGet }) => {
                 <h2 className="card-title">
                     {cardGet.name}
                 </h2>
-                <p >{cardGet.equipment}</p>
+                <p className='text-[#9CA3AF]' >{cardGet.equipment}</p>
 
                 <hr />
                 <div className="card-actions ">
