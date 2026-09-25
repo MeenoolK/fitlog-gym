@@ -35,6 +35,7 @@ const page = async ({params}) => {
     }
     return (
         <div className="card card-side  shadow-sm mt-10">
+            
             <figure>
                 <Image
                     src={card.image}
