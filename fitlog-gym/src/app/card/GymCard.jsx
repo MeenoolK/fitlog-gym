@@ -7,7 +7,7 @@ const GymCard = ({ cardGet }) => {
 
         <Link href= {`../card/${cardGet.id}`}>
 
-            <div className="card bg-base-100 w-96 shadow-sm">
+            <div className="card bg-base-100 w-full shadow-sm">
 
                 <figure>
                     <Image
