@@ -16,7 +16,7 @@ const Banner = () => {
                         TRAIN WITH INTENT. LOG <br className='hidden md:block' /> EVERY SET.
                     </h1>
                     <p className='mx-3 md:mx-5 text-[#9CA3AF]'>
-                        FitLog is a dark, no-nonsense gym companion: pick a lift, lock it <br className='hidden md:block' /> into today's plan, and watch the week's work add up.
+                        FitLog is a dark, no-nonsense gym companion: pick a lift, lock it <br className='hidden md:block' /> into todays plan, and watch the weeks work add up.
                     </p>
                     <button className='btn btn-active bg-[#C2F800] rounded-2xl text-black mt-8 md:mt-13 p-6 mx-3'>
                         BROWSE WORKOUTS
