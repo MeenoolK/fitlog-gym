@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-
+import Image from 'next/image';
 
 
 
@@ -34,10 +34,23 @@ const page = async ({params}) => {
         )
     }
     return (
-        <div>
-            <h3>Gym Id {id}</h3>
-            <h4>time {params.rating}</h4>
-            
+        <div className="card card-side bg-base-100 shadow-sm">
+            <figure>
+                <Image
+                    src={card.image}
+                    alt="Movie"
+                    height= {600}
+                    width={500}
+
+                    />
+            </figure>
+            <div className="card-body">
+                <h2 className="card-title">{card.name}</h2>
+                <p>{card.description}</p>
+                <div className="card-actions justify-end">
+                    <button className="btn btn-primary">Watch</button>
+                </div>
+            </div>
         </div>
     );
 };
