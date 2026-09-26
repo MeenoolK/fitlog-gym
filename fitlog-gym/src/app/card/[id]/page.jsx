@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import SetPlanButton from '../../buttonDetails/SetPlanButton';
-
+import LaterPlanButton from '../../laterButton/LaterButton';
 
 
 
@@ -115,8 +115,9 @@ const page = async ({params}) => {
                     
                 <div className="card-actions ">
                     <SetPlanButton card={card}></SetPlanButton> 
+                    <LaterPlanButton card={card}></LaterPlanButton> 
                     
-                    <button className="btn btn-outline text-amber-50 rounded-2xl border-[] ">📋 Save for later</button>
+                    
                 </div>
             </div>
         </div>

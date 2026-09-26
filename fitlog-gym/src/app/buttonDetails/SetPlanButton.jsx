@@ -11,7 +11,8 @@ const SetPlanButton = ({card}) => {
 
     const handleAddPlan = ()=> {
         console.log("just chekcing working or not", card)
-        setTodayPlan([...todayPlan,card])
+        setTodayPlan([...todayPlan,card]);
+        alert(`You already made a Exercise "${card.name}"`)
     };
     return (
         <div>

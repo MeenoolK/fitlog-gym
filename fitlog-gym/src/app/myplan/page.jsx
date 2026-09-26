@@ -6,8 +6,8 @@ import { GymContext } from '../contex/GymContex';
 
 const ListedGym = () => {
 
-    const {todayPlan} = useContext(GymContext)
-    console.log(todayPlan, "started reading" )
+    const {todayPlan, saveLater} = useContext(GymContext)
+    console.log(todayPlan, saveLater, "started reading" , "LAter save plan")
     return (
         <div>
             
