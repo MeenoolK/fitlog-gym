@@ -7,4 +7,7 @@
 
 <h3 align="left">Languages and Tools use:</h3>
 <p align="left"> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> </p>
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Some features:</h3>
+<ol>
+  <li>hi</li>
+</ol>
