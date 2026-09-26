@@ -32,8 +32,11 @@ const NavBar = () => {
                     <li><Link href="../myplan">My Plan</Link></li>
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Button</a>
+            <div className="navbar-end gap-5">
+                <a className="">Button</a>
+                <a className="btn bg-[#CCFF00] rounded-xl text-black font-extrabold">0</a>
+                <a className="">Plan</a>
+                <a className="btn bg-[#CCFF00] rounded-xl text-black font-extrabold">0</a>
             </div>
         </div>
     );
