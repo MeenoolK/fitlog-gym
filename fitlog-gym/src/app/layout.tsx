@@ -4,6 +4,7 @@ import "./globals.css";
 import NavBar from './navbar/NavBar'
 import Footer from './footer/Footer'
 import GymProvider from './contex/GymContex'
+import { ToastContainer } from "react-toastify";
 
 
 
@@ -37,6 +38,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 
           <NavBar></NavBar>
           <div>{children}</div>
+          <ToastContainer />
+
           <Footer></Footer>
 
         </GymProvider>

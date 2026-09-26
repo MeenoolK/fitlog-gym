@@ -3,6 +3,7 @@
 
 import React, { useContext } from 'react';
 import { GymContext } from "../contex/GymContex";
+import { toast } from 'react-toastify';
 
 const SetPlanButton = ({card}) => {
 
@@ -12,7 +13,7 @@ const SetPlanButton = ({card}) => {
     const handleAddPlan = ()=> {
         console.log("just chekcing working or not", card)
         setTodayPlan([...todayPlan,card]);
-        alert(`You already made a Exercise "${card.name}"`)
+        toast.success(`You already made a Exercise "${card.name}"`)
     };
     return (
         <div>
