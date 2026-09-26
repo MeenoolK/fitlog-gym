@@ -17,9 +17,9 @@ const NavBar = () => {
                     <ul
                         tabIndex={-1}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a>Workouts</a></li>
+                        <li><Link href="/">Workouts</Link></li>
                         
-                        <li><a>My Plan</a></li>
+                        <li><Link href='../myplan'>My Plan</Link></li>
                     </ul>
                 </div>
                 <Image src={logo} alt='Logo Gym' className='m-3'></Image>
