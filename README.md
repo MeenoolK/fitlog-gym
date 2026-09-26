@@ -1,5 +1,5 @@
 <h1 align="center">Project Name FitLog Gym</h1>
-<h3 align="center">FitLog Gym is website that shows how much exercise you should do to make yourself fit for a healthy life. You can track your exercise with this. There is also features to save a exercise for later. You will be motivated by reading the exercise description.</h3>
+<h3 align="center">FitLog Gym is website that shows how much exercise you should do to make yourself fit for a healthy life. You can track your exercise with this. So, will not be get distract among obstacles . You will be motivated by reading the exercise description.</h3>
 
 
 <p align="left">
